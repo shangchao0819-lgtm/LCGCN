@@ -1,3 +1,4 @@
-* text=auto eol=lf
+# Preserve audited source and figure bytes across platform checkouts.
+* -text
 *.png binary
 *.pdf binary
