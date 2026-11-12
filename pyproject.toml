@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lcgcn"
+version = "0.1.0"
+description = "LCGCN hypergraph node classification research implementation"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.11"
+dependencies = ["torch==2.7.1", "numpy==2.2.6", "scipy==1.15.3", "scikit-learn==1.7.2"]
+
+[project.urls]
+Repository = "https://github.com/shangchao0819-lgtm/LCGCN"
+Issues = "https://github.com/shangchao0819-lgtm/LCGCN/issues"
+
+[project.optional-dependencies]
+dev = ["pyright==1.1.414"]
+
+[project.scripts]
+lcgcn = "lcgcn.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lcgcn*"]
+
+[tool.setuptools.package-data]
+lcgcn = ["configs/*.json"]
+
+[tool.pyright]
+include = ["main.py", "lcgcn", "tests"]
+pythonVersion = "3.10"
+typeCheckingMode = "off"
+reportMissingImports = "error"

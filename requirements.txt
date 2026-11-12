@@ -1,0 +1,2 @@
+# Select CPU/CUDA torch per README before installation.
+-e .

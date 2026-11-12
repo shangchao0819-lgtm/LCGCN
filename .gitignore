@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+outputs/
+.pytest_cache/
+# Third-party datasets are kept outside version control.
+/data/

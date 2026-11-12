@@ -1,0 +1,33 @@
+{
+  "data_loader.py": {
+    "original_sha256": "16a6191d9fd8cb3d9265ab350c09acea08122a362d870904fd0c2af92b91c727",
+    "original_matches_manuscript_snapshot": true,
+    "packaged_file_sha256": "08844b37da004f8302481162a9fae6f3eb32fe803d5ec7202e5cbcdb5d389ce9"
+  },
+  "graph_builder.py": {
+    "original_sha256": "c15cfc58b337745832124978f2016b67d91713aa63c217513c878302e70c9597",
+    "original_matches_manuscript_snapshot": true,
+    "packaged_file_sha256": "968f7140308e7dc4440e8b58662368e00508f9c4c02e9599c5a4b9e30ca8daca"
+  },
+  "models.py": {
+    "original_sha256": "e1e03802410998aa73f0378a67be152585672e627542e73a27bd49878f12d23b",
+    "original_matches_manuscript_snapshot": true,
+    "packaged_file_sha256": "4361c0088e00bc5bff70ac60819fe6929030009216ae582652a0c244b7b0fbb9"
+  },
+  "train.py": {
+    "original_sha256": "00aeaef50d948ae8d38f7e741d7eecf683db8330e088292c62dcc4a1ddace3f1",
+    "original_matches_manuscript_snapshot": true,
+    "packaged_file_sha256": "e06a3f94a80ea79e1ffbddac1e7bc2c662057be42979a9624fb43623db390813"
+  },
+  "reproduce.py": {
+    "original_sha256": "0f1a2d1618eee8e0e6a5f692ae9e8123275677808a5e0b9909afa441913eded5",
+    "original_matches_manuscript_snapshot": null,
+    "packaged_file_sha256": "1c620fd7a9607ea910527a20ec0d4ad0dc46fbe379e44b401a342ac1b43ae0a6"
+  },
+  "cv_selection.py": {
+    "original_sha256": "b3cdfb8ee8c35f8e59a3f3eac47150ed4fbaa49607dc88cb9da4ccd5de512d98",
+    "original_matches_manuscript_snapshot": true,
+    "packaged_file_sha256": "b0cc312471475a832dbd60dfd6d562b850b671720763a0b58e0243e384bb16f8"
+  },
+  "packaging_changes": "Original hashes refer to the pre-packaging source. Packaged hashes refer to the current files. Changes comprise module/import names, portable data and snapshot paths, console reporting, and English documentation; model architecture and frozen training configurations are unchanged."
+}
