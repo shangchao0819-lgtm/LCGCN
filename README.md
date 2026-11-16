@@ -12,6 +12,24 @@ Code and documentation are available under the [MIT license](LICENSE). This repo
 
 **Data availability:** the five preprocessed datasets and 50 supplied splits are **not included in this public repository**, because their redistribution provenance is still being verified. The expected file hashes and split statistics are included. Training requires an authorized local copy of those inputs; see [Data documentation](docs/DATA.md). Downloading the code alone is sufficient for the synthetic tests and configuration listing, but not dataset training.
 
+## Associated manuscript
+
+**Title:** LCGCN: Training Hypergraph Convolutional Networks based on Local-circulant Graphs
+
+**Authors (current revised manuscript order):** Chao Shang, Xinyue Wang, Dan Li, Kai Yuan, Zhanru Gao, Yan Wang.
+
+**Corresponding author:** Yan Wang.
+
+The manuscript is under revision for *Information Sciences*.
+
+## Supplementary numerical records
+
+**Supplementary Data 1** is publicly available on Zenodo: [https://doi.org/10.5281/zenodo.24286272](https://doi.org/10.5281/zenodo.24286272).
+
+This DOI identifies the supplementary data record, **not the manuscript or this software**. The archive contains supplementary numerical records, a README, and checksums. Section S9 of the manuscript's Supplementary Information provides the data-file index and explains how the files correspond to the reported analyses.
+
+The Zenodo archive is **not a complete training dataset**: it does not contain the original third-party input files, pretrained weights, or a complete experiment runner. Training still requires the authorized local inputs described in [Data documentation](docs/DATA.md).
+
 ## Quick start
 
 Clone the repository (or extract GitHub's Download ZIP), open the project folder containing `main.py` in VS Code, and install the dependencies as described below:
