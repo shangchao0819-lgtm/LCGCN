@@ -4,6 +4,24 @@
 
 代码和文档采用 MIT 许可证。公开仓库不含第三方数据文件：五个数据集和50份划分的再分发来源授权仍待确认，不能把 GitHub 源码下载当作完整数据包。提供 LCGCN、NativeLCGCN、FastLCGCN 的冻结主表训练配置，不包含基线或历史结果。默认运行会重新训练，不读取预存准确率。
 
+## 关联论文
+
+**题目：** LCGCN: Training Hypergraph Convolutional Networks based on Local-circulant Graphs
+
+**作者（当前修回稿顺序）：** Chao Shang, Xinyue Wang, Dan Li, Kai Yuan, Zhanru Gao, Yan Wang。
+
+**通讯作者：** Yan Wang。
+
+论文目前处于 *Information Sciences* 返修阶段，以上作者顺序与当前修回稿一致。
+
+## 补充数值记录
+
+**Supplementary Data 1** 已在 Zenodo 公开：[https://doi.org/10.5281/zenodo.24286272](https://doi.org/10.5281/zenodo.24286272)。
+
+此 DOI 对应补充数据记录，**不是论文 DOI，也不是本软件的 DOI**。压缩包包含补充数值记录、README 和校验信息；论文补充材料的 S9 节提供数据文件索引及其与分析内容的对应说明。
+
+Zenodo 压缩包**不是完整训练数据集**，不包含原始第三方输入文件、预训练权重或完整实验运行程序。训练仍需准备 [数据说明](DATA.md) 中所述的、已有使用授权的本地输入文件。
+
 ## 1. 解压和环境
 
 **先克隆仓库或解压 GitHub Download ZIP，再安装依赖。无需数据可运行 `python main.py --all --list` 和 `python -m unittest discover -s tests -v`。训练需要已有授权的数据集合；可通过 `--data-dir "数据目录"` 指向旧完整包中的 data，或单独数据包的 LCGCN_data/data。仓库仅提供校验清单 docs/data_manifest.json，不提供公开数据下载。**
